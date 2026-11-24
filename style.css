@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Portfolio</title>
+
+
+    <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="index.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<meta name="robots" content="none,noarchive"/>
+</head>
+
+<body>
+
+
+
+    <header class="header">
+
+        <div class="container navbar">
+            <a href="#home" class="logo">
+                <img src="https://as1.ftcdn.net/v2/jpg/01/19/80/06/1000_F_119800603_FS6abarsGNCdZdjipRtGOr7Qtjd5QFkV.jpg" alt="Portfolio Logo" class="logo-img" />
+                <span>MyPortfolio</span>
+            </a>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section id="home" class="section home">
+        <div class="container home-content">
+
+            <div class="home-text">
+                <p class="welcome">Welcome to My Portfolio</p>
+                <h1>Hello, I am <span class="highlight">Atharva Bhor</span></h1>
+                <p class="intro">
+                    I am a first-year engineering student passionate about technology,
+                    web development, and problem solving. I enjoy learning new tools and
+                    building simple, useful projects.
+                </p>
+
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+
+            <div class="home-image">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/084/457/231/small/young-man-profile-icon-with-casual-clothing-and-friendly-flat-icon-avatar-for-user-profile-and-digital-identity-clean-modern-illustration-ideal-for-interface-dashboard-contact-free-vector.jpg" alt="Profile photo of Your Name" class="profile-img" />
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-content">
+                <p>
+                    My name is <strong>Atharva Bhor</strong>. I am currently pursuing my
+                    first year of engineering. I have a strong interest in computers,
+                    programming, and creating digital solutions.
+                </p>
+
+                <p>
+                    <strong>Educational Background:</strong>
+                    I completed my secondary education and am now studying engineering.
+                    I am building my foundation in programming, web technologies, and
+                    problem-solving.
+                </p>
+
+                <p>
+                    <strong>Interests and Career Goals:</strong>
+                    I am interested in web development, software development, and
+                    technology. My goal is to become a skilled software engineer and
+                    contribute to useful, user-friendly applications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <h3>HTML5</h3>
+                    <p>Creating structured and semantic web pages.</p>
+
+                    <span class="badge">Beginner</span>
+                </div>
+
+                <div class="skill-card">
+                    <h3>CSS3</h3>
+                    <p>Styling websites using Flexbox, Grid, and responsive design.</p>
+
+                    <span class="badge">Beginner</span>
+                </div>
+
+                <div class="skill-card">
+                    <h3>C Programming</h3>
+                    <p>Understanding programming logic, loops, functions, and arrays.</p>
+
+                    <span class="badge">Basic</span>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <p>Writing simple programs and learning programming fundamentals.</p>
+
+                    <span class="badge">Basic</span>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Problem Solving</h3>
+                    <p>Analyzing problems and developing logical solutions.</p>
+
+                    <span class="badge">Improving</span>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Teamwork</h3>
+                    <p>Working effectively with classmates on academic projects.</p>
+
+                    <span class="badge">Professional</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1550622824-c11e494a4b65?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Personal portfolio website project" class="project-img" />
+                    <div class="project-info">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>
+                            A responsive personal portfolio website created using HTML5 and
+                            CSS3. It includes navigation, skills, projects, and a contact
+                            form.
+                        </p>
+                        <p class="project-tech">Technologies: HTML, CSS</p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="https://plus.unsplash.com/premium_photo-1724800663657-3e57bf4f622c?q=80&w=726&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Simple calculator project" class="project-img" />
+                    <div class="project-info">
+                        <h3>Simple Calculator</h3>
+                        <p>
+                            A basic calculator project that performs addition, subtraction,
+                            multiplication, and division using programming logic.
+                        </p>
+                        <p class="project-tech">Technologies: C / Python</p>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+
+            <form class="contact-form" action="#" method="post">
+
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter subject" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+                </div>
+
+                <button type="submit" class="btn submit-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <p class="footer-name">Atharva Bhor</p>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+            </div>
+
+            <p class="copyright">
+                &copy; 2026 Atharva Bhor. All Rights Reserved.
+            </p>
+
+        </div>
+    </footer>
+
+<script src="index.js"></script>
+</body>
+
+</html>
